@@ -8,4 +8,75 @@ body {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+header{
+background-color: beige;
+}
+h1{
+   background-color: beige;
+}
+
+nav{
+    text-align: right;
+    /*grid-column: 5;
+    grid-row: 1;
+    /*background-color: aqua;*/
+    display: inline;
+}
+
+ul{
+    list-style-type: none;
+    /*grid-row: 2;
+    grid-column: 12/12;*/
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float:left;
+}
+li a{
+    display: inline;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+ 
+}
+
+.overview-hero-image{
+    display: flex;
+    align-items: center;
+}
+.overview-hero-image img{
+    max-width: 20%;
+}
+.overview-hero-text{
+    flex:1;
+    padding:20px;
+}
+.overview-hero-text h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    
+}
+.overview-hero-text p {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: right;
+}
+.overview-hero{
+    background-color: brown;
+    
 }
